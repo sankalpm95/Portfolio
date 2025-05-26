@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Potrfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sankalp's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Sankalp</span>
+                <div>And I am a passionate</div>
+                <!-- <div>web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="download.html">Download Resume</a></button>
+                    <button class="btn"><a href="github.html">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.jpeg" alt="">
+
+            </div>
+        </section>
+        
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Education</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Bachelor of computer application (BCA)
+                    </div>
+                    <div class="vertical-desc">
+                        Dr Ram Manohar Lohia Avadh University , [Ayodhya]
+                        Expected Year of passing : [Aug 2025]
+                        CGPA: 7.5
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Higher Secondory (12th),[UP Board]
+                    </div>
+                    <div class="vertical-desc">
+                        [SHRI JAY RAJ I C VIHARA AMBEDKAR NAGER,]
+                        Year of passing : [2022]
+                        Percentage : [73.6%]
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Secondory (10th),[UP Board]
+                    </div>
+                    <div class="vertical-desc">
+                        [SHRI JAY RAJ I C VIHARA AMBEDKAR NAGER,]
+                        Year of passing : [2020]
+                        Percentage : [84.5%]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <main>
+    <footer>
+        
+        <div class="footer-rights">
+            Copyright &#169; sankalpportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'java Developer', 'Video Editer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
